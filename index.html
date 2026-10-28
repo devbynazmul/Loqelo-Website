@@ -1,0 +1,787 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>Loqelo | Everything your place needs</title>
+
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+
+            <!-- Header -->
+            <header class="header">
+                <nav class="navbar">
+                    
+                    <a href="#" class="logo">
+                        <img src="assets/logo/Loqelo.png"
+                             alt="Loqelo Logo"
+                             class="brand-logo">
+                    </a>
+
+
+                    <div class="nav-links">
+                       
+                        <a href="#how-it-works" data-i18n="navHow">
+                            How It Works
+                        </a>
+
+                        <a href="#preview" data-i18n="navExplore">
+                            Explore Loqelo
+                        </a>
+
+                        <a href="#waitlist" data-i18n="navWaitlist">
+                            Join Waitlist
+                        </a>
+
+
+                        <div class="language-switcher">
+                            <label for="languageSelect" class="visually-hidden">
+                                Select language
+                            </label>
+
+                            <select id="languageSelect" aria-label="Select language">
+                                <option value="en">English</option>
+                                <option value="bn">বাংলা</option>
+                            </select>
+                        </div>
+
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Hero Section -->
+            <section class="hero hero-modern" id="top">
+
+                <div class="hero-content">
+
+                    <span class="launch-badge" data-i18n="comingLabel">
+                        COMING FEBRUARY 2027
+                    </span>
+
+                    <h1 id="heroTitle">
+                        Everything your <br>
+                        <span>place needs.</span>
+                    </h1>
+
+                    <p data-i18n="heroDesc">
+                        From home improvements to garden care
+                        and office services, Loqelo connects
+                        you with the right professionals.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#waitlist" class="btn-primary"
+                           data-i18n="heroWaitlist">
+                            Join the Waitlist →
+                        </a>
+
+                        <a href="#services" class="btn-secondary"
+                           data-i18n="heroDiscover">
+                            Explore Services
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <span>✓ Trusted Professionals</span>
+                        <span>✓ Local Services</span>
+                        <span>✓ All Your Needs</span>
+                    </div>
+
+                </div>
+
+                <div class="hero-image-wrap">
+                    <img
+                        src="assets/hero.jpg"
+                        alt="Professional home service"
+                        class="hero-image"
+                        fetchpriority="high">
+                    <div class="hero-image-badge">
+                        <span class="hero-badge-icon">✓</span>
+                        <div>
+                            <strong>Services made simple</strong>
+                            <small>Everything in one place</small>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Popular Services -->
+
+            <section class="services-section" id="services">
+
+                <div class="services-heading">
+                    <span class="section-label">EXPLORE OUR SERVICES</span>
+
+                    <h2>
+                        A service for <span>every need.</span>
+                    </h2>
+
+                    <p>
+                        From everyday home tasks to specialist repairs,
+                        find the right professional for your needs.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/home.jpg"
+                                 alt="Home cleaning service" loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">01 / HOME</span>
+                            <h3>Home Cleaning</h3>
+                            <p>Keep your home fresh, clean and comfortable.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/garden.jpg"
+                                 alt="Garden maintenance" loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">02 / OUTDOOR</span>
+                            <h3>Garden Services</h3>
+                            <p>Beautiful gardens, lawns and outdoor spaces.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/build.jpg"
+                                 alt="Timber roof construction" loading="lazy">
+                            <span class="service-number">03</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">03 / BUILD</span>
+                            <h3>Construction</h3>
+                            <p>Find professionals for building and home projects.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/inst.jpg"
+                                 alt="Installation and maintenance services"
+                                 loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">04 / REPAIR</span>
+                            <h3>Installation & Repairs</h3>
+                            <p>Get help with essential installations and repairs.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/pets.jpg"
+                                 alt="Professional pet grooming" loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">05 / PETS</span>
+                            <h3>Pet Care</h3>
+                            <p>Find support for your pets' everyday needs.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/vehicles.jpg"
+                                 alt="Professional vehicle cleaning" loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">06 / AUTO</span>
+                            <h3>Vehicle Services</h3>
+                            <p>Keep your vehicle clean and well maintained.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/care.jpg"
+                                 alt="Personal care and assistance" loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">07 / CARE</span>
+                            <h3>Personal Care</h3>
+                            <p>Find assistance for personal and everyday care.</p>
+                        </div>
+                    </a>
+
+                    <a href="#waitlist" class="service-card">
+                        <div class="service-image">
+                            <img src="assets/moving.jpg"
+                                 alt="Moving and transport service" loading="lazy">
+                            <span class="service-arrow">↗</span>
+                        </div>
+                        <div class="service-info">
+                            <span class="service-number">08 / MOVING</span>
+                            <h3>Moving & Transport</h3>
+                            <p>Make moving and transporting items easier.</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="services-footer">
+                    <p>One platform. Multiple solutions. Made for your place.</p>
+                    <a href="#waitlist" class="btn-primary">
+                        Find Your Service →
+                    </a>
+                </div>
+
+                
+                <!-- Animated Services Marquee -->
+                <div class="service-marquee" aria-label="Loqelo service categories">
+                    <div class="marquee-track" aria-hidden="true">
+
+                        <span>HOME CLEANING</span>
+                        <span class="marquee-star">✳</span>
+                        <span>GARDEN CARE</span>
+                        <span class="marquee-star">✳</span>
+                        <span>CONSTRUCTION</span>
+                        <span class="marquee-star">✳</span>
+                        <span>PET CARE</span>
+                        <span class="marquee-star">✳</span>
+                        <span>VEHICLE SERVICES</span>
+                        <span class="marquee-star">✳</span>
+                        <span>PERSONAL CARE</span>
+                        <span class="marquee-star">✳</span>
+                        <span>MOVING & TRANSPORT</span>
+                        <span class="marquee-star">✳</span>
+
+                        <span>HOME CLEANING</span>
+                        <span class="marquee-star">✳</span>
+                        <span>GARDEN CARE</span>
+                        <span class="marquee-star">✳</span>
+                        <span>CONSTRUCTION</span>
+                        <span class="marquee-star">✳</span>
+                        <span>PET CARE</span>
+                        <span class="marquee-star">✳</span>
+                        <span>VEHICLE SERVICES</span>
+                        <span class="marquee-star">✳</span>
+                        <span>PERSONAL CARE</span>
+                        <span class="marquee-star">✳</span>
+                        <span>MOVING & TRANSPORT</span>
+                        <span class="marquee-star">✳</span>
+
+                    </div>
+                </div>
+                <!-- End Animated Services Marquee -->
+
+
+            </section>
+            <!-- End Popular Services -->
+
+
+
+
+
+            
+            <!-- How It Works -->
+            <section id="how-it-works" class="how-section">
+
+                <div class="how-heading">
+                    <span class="how-label" data-i18n="howLabel">
+                        HOW LOQELO WORKS
+                    </span>
+
+                    <h2 data-i18n="howTitle">
+                        From your needs to the right pro.
+                    </h2>
+
+                    <p data-i18n="howDesc">
+                        One simple journey from describing
+                        your job to choosing the perfect provider.
+                    </p>
+                </div>
+
+                <div class="steps-grid">
+
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <div class="step-icon">✎</div>
+                        <h3 data-i18n="step1">Describe your need</h3>
+                        <p data-i18n="stepDesc1">
+                            Tell Loqelo what you need
+                            in your own words.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <div class="step-icon">⌕</div>
+                        <h3 data-i18n="step2">Get matched</h3>
+                        <p data-i18n="stepDesc2">
+                            Loqelo helps connect your request
+                            with relevant local professionals.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <div class="step-icon">▤</div>
+                        <h3 data-i18n="step3">Receive offers</h3>
+                        <p data-i18n="stepDesc3">
+                            Receive quotes from service
+                            providers interested in your job.
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <div class="step-number">04</div>
+                        <div class="step-icon">✓</div>
+                        <h3 data-i18n="step4">Choose your pro</h3>
+                        <p data-i18n="stepDesc4">
+                            Compare prices, ratings and offers,
+                            then choose your provider.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            
+            
+            <!-- Platform Preview -->
+            <section id="preview" class="platform-section">
+
+                <div class="section-heading">
+
+                    <span class="section-label" data-i18n="videoLabel">
+                        MEET LOQELO
+                    </span>
+
+                    <h2 data-i18n="videoTitle">
+                        One Platform. Endless Possibilities.
+                    </h2>
+
+                    <p data-i18n="videoDesc">
+                        Discover how Loqelo connects you with
+                        the right professionals for your home,
+                        garden and office.
+                    </p>
+
+                </div>
+
+                <div class="video-container">
+
+                    <video
+                        controls
+                        preload="metadata"
+                        playsinline
+                        aria-label="Loqelo promotional video">
+
+                        <source
+                            src="assets/video/loqelo-video.mp4"
+                            type="video/mp4">
+
+                        Your browser does not support HTML5 video.
+
+                    </video>
+
+                </div>
+
+                <p class="video-caption" data-i18n="videoCaption">
+                    A smarter way to get things done.
+                    Coming February 2027.
+                </p>
+
+            </section>
+            <!-- End Platform Preview -->
+
+
+
+            <!-- Platform Showcase Section -->
+
+            <section class="showcase" id="showcase">
+
+                <div class="showcase-heading">
+
+                    <span class="showcase-label" data-i18n="showcaseLabel">
+                        EXPLORE THE PLATFORM
+                    </span>
+
+                    <h2 data-i18n="showcaseTitle">
+                        Designed to make life easier.
+                    </h2>
+
+                    <p data-i18n="showcaseDesc">
+                        Discover how Loqelo makes finding
+                        and offering services simple.
+                    </p>
+
+                </div>
+
+                <div class="showcase-grid">
+
+                    <!-- Home Screen -->
+                    <div class="showcase-card">
+                        <img
+                            src="assets/home.png"
+                            alt="Loqelo Home Screen"
+                            loading="lazy">
+
+                        <h3 data-i18n="card1Title">Discover Loqelo</h3>
+                        <p data-i18n="card1Desc">
+                            Describe your needs and find
+                            the right professionals.
+                        </p>
+                    </div>
+
+                    <!-- Customer Dashboard -->
+                    <div class="showcase-card">
+                        <img
+                            src="assets/client.png"
+                            alt="Loqelo Customer Dashboard"
+                            loading="lazy">
+
+                        <h3 data-i18n="card2Title">For Customers</h3>
+                        <p data-i18n="card2Desc">
+                            Manage jobs and compare
+                            service provider offers.
+                        </p>
+                    </div>
+
+                    <!-- Contractor Dashboard -->
+                    <div class="showcase-card">
+                        <img
+                            src="assets/contractor.png"
+                            alt="Loqelo Contractor Dashboard"
+                            loading="lazy">
+
+                        <h3 data-i18n="card3Title">For Service Providers</h3>
+                        <p data-i18n="card3Desc">
+                            Discover new jobs and connect
+                            with potential customers.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- End of Platform Showcase -->
+
+         
+            
+            <!-- Waitlist Section -->
+
+            <section id="waitlist" class="waitlist-section">
+
+                <div class="waitlist-heading">
+                    <span class="waitlist-label" data-i18n="waitLabel">
+                        BE PART OF WHAT'S NEXT
+                    </span>
+
+                    <h2 data-i18n="waitTitle">
+                        Get early access to Loqelo.
+                    </h2>
+
+                    <p data-i18n="waitDesc">
+                        Everything your place needs.
+                        Coming February 2027.
+                        Join our pre-launch waitlist.
+                    </p>
+                </div>
+
+                <div class="waitlist-grid">
+
+                    <!-- CUSTOMER FORM -->
+                    <div class="waitlist-card">
+
+                        <div class="form-icon">01</div>
+
+                        <span class="form-category" data-i18n="customerCategory">
+                            FOR CUSTOMERS
+                        </span>
+
+                        <h3 data-i18n="customerTitle">
+                            Find the right help.
+                        </h3>
+
+                        <p class="form-description" data-i18n="customerDesc">
+                            Join the waitlist and be among
+                            the first to discover Loqelo.
+                        </p>
+
+                        <form id="customerForm">
+
+                            <label for="customerEmail" data-i18n="emailLabel">
+                                Email address *
+                            </label>
+
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required>
+
+                            <label for="customerCountry" data-i18n="customerCountryLabel">
+                                Country of residence *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="customerCountry"
+                                name="country"
+                                placeholder="Enter your country"
+                                data-i18n-placeholder="customerCountryPlaceholder"
+                                autocomplete="country-name"
+                                required>
+
+                            <label for="customerType" data-i18n="customerTypeLabel">
+                                I am joining as (optional)
+                            </label>
+
+                            <select id="customerType" name="type">
+                                <option value="" data-i18n="selectOption">
+                                    Select an option
+                                </option>
+                                <option value="individual" data-i18n="individual">
+                                    Individual
+                                </option>
+                                <option value="business" data-i18n="business">
+                                    Business
+                                </option>
+                            </select>
+
+                            <label class="consent-label">
+                                <input
+                                    type="checkbox"
+                                    name="consent"
+                                    required>
+
+                                <span data-i18n="consentText">
+                                    I agree to receive email updates
+                                    about the Loqelo launch and
+                                    related announcements.
+                                </span>
+                            </label>
+
+                            <button type="submit"
+                                    class="waitlist-button"
+                                    data-i18n="customerButton">
+                                Join as a Customer →
+                            </button>
+
+                            <p class="form-message"
+                               aria-live="polite"></p>
+
+                        </form>
+
+                    </div>
+
+                    <!-- CONTRACTOR FORM -->
+                    <div class="waitlist-card">
+
+                        <div class="form-icon">02</div>
+
+                        <span class="form-category" data-i18n="providerCategory">
+                            FOR SERVICE PROVIDERS
+                        </span>
+
+                        <h3 data-i18n="providerTitle">
+                            Grow your opportunities.
+                        </h3>
+
+                        <p class="form-description" data-i18n="providerDesc">
+                            Be among the first to discover
+                            new opportunities with Loqelo.
+                        </p>
+
+                        <form id="contractorForm">
+
+                            <label for="contractorEmail" data-i18n="providerEmailLabel">
+                                Business email *
+                            </label>
+
+                            <input
+                                type="email"
+                                id="contractorEmail"
+                                name="email"
+                                placeholder="you@business.com"
+                                autocomplete="email"
+                                required>
+
+                            <label for="contractorCountry" data-i18n="providerCountryLabel">
+                                Country of operation *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="contractorCountry"
+                                name="country"
+                                placeholder="Where do you provide services?"
+                                data-i18n-placeholder="providerCountryPlaceholder"
+                                autocomplete="country-name"
+                                required>
+
+                            <label for="contractorType" data-i18n="providerTypeLabel">
+                                Provider type (optional)
+                            </label>
+
+                            <select id="contractorType" name="type">
+                                <option value="" data-i18n="selectOption">
+                                    Select an option
+                                </option>
+                                <option value="business" data-i18n="business">
+                                    Business
+                                </option>
+                                <option value="individual" data-i18n="individual">
+                                    Individual
+                                </option>
+                            </select>
+
+                            <label class="consent-label">
+                                <input
+                                    type="checkbox"
+                                    name="consent"
+                                    required>
+
+                                <span data-i18n="consentText">
+                                    I agree to receive email updates
+                                    about the Loqelo launch and
+                                    related announcements.
+                                </span>
+                            </label>
+
+                            <button type="submit"
+                                    class="waitlist-button"
+                                    data-i18n="providerButton">
+                                Join as a Provider →
+                            </button>
+
+                            <p class="form-message"
+                               aria-live="polite"></p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <p class="waitlist-note" data-i18n="waitNote">
+                    Pre-launch preview • February 2027
+                </p>
+
+            </section>
+            <!-- End Waitlist Section -->
+
+
+            <script src="script.js"></script>
+
+
+
+            <!-- Loqelo Footer -->
+            <footer class="site-footer">
+
+                <div class="footer-main">
+
+                    
+                <div class="footer-brand">
+
+                    <a href="#top" class="footer-logo" aria-label="Loqelo home">
+                        <img
+                            src="assets/logo/footer-logo.png"
+                            alt="Loqelo"
+                            class="footer-logo-image">
+                    </a>
+
+                    <p data-i18n="footerTagline">
+                        Everything your place needs.
+                    </p>
+
+                    <span class="footer-launch" data-i18n="footerLaunch">
+                        Launching February 2027
+                    </span>
+
+                </div>
+
+
+                        <p data-i18n="footerTagline">
+                            Everything your place needs.
+                        </p>
+
+                        <span class="footer-launch" data-i18n="footerLaunch">
+                            Launching February 2027
+                        </span>
+                    </div>
+
+                    <div class="footer-links">
+                        <h3 data-i18n="footerExplore">Explore</h3>
+
+                        <a href="#how-it-works" data-i18n="navHow">
+                            How It Works
+                        </a>
+
+                        <a href="#preview" data-i18n="navExplore">
+                            Explore Loqelo
+                        </a>
+
+                        <a href="#showcase" data-i18n="footerPlatform">
+                            Platform Preview
+                        </a>
+                    </div>
+
+                    <div class="footer-cta">
+                        <h3 data-i18n="footerJoinTitle">
+                            Be part of Loqelo.
+                        </h3>
+
+                        <p data-i18n="footerJoinDesc">
+                            Get ready for a smarter way to manage your place.
+                        </p>
+
+                        <a href="#waitlist"
+                           class="footer-button"
+                           data-i18n="heroWaitlist">
+                            Join the Waitlist
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+                    <p data-i18n="footerCopyright">
+                        © 2026 Loqelo. All rights reserved. Design & Developed By | Dev Nazmul |
+                    </p>
+
+                    <a href="#top" class="footer-back-top"
+                       data-i18n="footerBackTop">
+                        Back to top ↑
+                    </a>
+                </div>
+
+            </footer>
+            <!-- End Loqelo Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </body>
+</html>
